@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color:rgb(231, 234, 238);
+    margin: 20px 20px 0 20px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    min-height: 95vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.resume, .contact{
+   
+    background-color: rgb(255, 255, 255);
+    color:rgb(178, 182, 182);
+    border-radius: 20px;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+}
+
+
+.exp{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:20px;
+}
+
+a{
+    color:rgb(57, 78, 78); 
+}
+
+
+
+.main{
+    flex: 1;
+}
+
+
+header > h1 {
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    color:rgb(55, 65, 78);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    object-fit: fill;
+}
+.unordered{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px; 
+}
+.maj{
+    color: midnightblue;
+}
+
+.thevis{
+    width: 45%;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: justify;
+}
+    
+.img{
+    height: 200px;
+    float: left;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.thesis{
+    float: left;
+}
+
+.vision{
+    float: right
+}
+
+h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.conres {
+    clear: both;
+}
+.heading{
+    margin: 0px;
+}
+
+
+@media (max-width: 680px) {
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        object-fit: cover;
+      }
+
+    .thevis {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+
+    .img {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+}
